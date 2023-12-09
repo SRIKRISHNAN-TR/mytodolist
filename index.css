@@ -1,0 +1,70 @@
+header{
+    font-size: 35px;
+    /* border: 0cap blue; */
+    position: absolute;
+    left: 151px;
+    border-radius: 1.5rem;
+    /* background-color: blue; */
+    height: 150px;
+    width: 450px;
+}
+
+header::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 4%;
+    left: auto;
+    width: 1400px;
+    height: 2px;
+    background-color: black;
+    margin: -25px;
+}
+.new
+{
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    margin-left: 4%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+ #task{
+    width: 35%;
+    position: absolute;
+    left: 0;
+    bottom: 64%;
+    margin-left: 4%;
+    height: 45px;
+} 
+
+#add {
+    background-color: yellow;
+    margin-left: 10px; /* Adjust the margin as needed */
+    vertical-align: middle; /* Aligns the button vertically */
+}
+/* #taskinput{
+    width: 35%;
+    position: absolute;
+    left: 0;
+    bottom: 64%;
+    margin-left: 4%;
+    height: 45px;
+} */
+
+.outside{
+   margin: 1%;
+    width: 98%;
+    height: 800px;
+    border: 7px dotted rgb(235, 135, 140);
+    border-radius: 0px;
+    padding: 3px;
+    background-color: rgb(239, 233, 233);
+}
+body{
+    background-color: black;
+}
+.now #done {
+
+    background-color: green;
+}
